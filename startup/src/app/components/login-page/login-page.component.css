@@ -1,0 +1,43 @@
+.login-page {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.side-nav {
+    height: 100vh;
+    width: 50vw;
+    /* background-color: green; */
+    float: left;
+    background-image: url('../../resource/board1.jpg');
+    /* background-size: 500px; */
+    /* background-size: cover; */
+}
+
+.nav {
+    height: 100vh;
+    width: 50vw;
+    background-color: lightblue;
+    float: right;
+}
+
+.login-details {
+    margin-left: 25%;
+    /* background-color: saddlebrown; */
+    margin-bottom: 15vh;
+}
+
+.heading {
+    height: 10vh;
+    width: 110vh;
+    font-size: 8vh;
+    /* margin-left: 5%; */
+    color: seashell;
+    background-color: black;
+    /* background-colo0r: red; */
+}
+
+.form-control {
+    width: 25vw;
+    /* background-color: royalblue; */
+}

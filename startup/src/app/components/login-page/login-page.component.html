@@ -1,0 +1,20 @@
+<div class="login-page">
+    <div class="side-nav"></div>
+    <div class="nav">
+        <div class="heading"> School Managenet System</div>
+        <div class="login-details">
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <input type="text" class="form-control" formControlName="userName"  placeholder="User Name">
+            <app-app-validation [control]="registerForm.controls.userName" [submit]="submitted"></app-app-validation>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" formControlName="password" placeholder="Password">
+            <app-app-validation [control]="registerForm.controls.password" [submit]="submitted"></app-app-validation>
+        </div>
+        <button class="btn btn-primary">Login</button>
+    </form>
+</div>
+
+    </div>
+</div>
