@@ -12,6 +12,6 @@ press --> i and the "commit Name"
 after that press :wq
 
 //Now Push the code
-git push origin branch name
+git push origin branch name   
 
 
