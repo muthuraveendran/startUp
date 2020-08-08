@@ -1,43 +1,46 @@
 .login-page {
-    height: 100vh;
-    width: 100vw;
-
+  height: 100vh;
+  width: 100vw;
 }
 
 .side-nav {
-    height: 100vh;
-    width: 50vw;
-    /* background-color: green; */
-    float: left;
-    background-image: url('../../resource/board1.jpg');
-    /* background-size: 500px; */
-    /* background-size: cover; */
+  height: 100vh;
+  width: 50vw;
+  float: left;
+  background-image: url("../../resource/board1.jpg");
+  background-repeat: no-repeat;
+  background-size: 683px 683px;
 }
 
 .nav {
-    height: 100vh;
-    width: 50vw;
-    background-color: lightblue;
-    float: right;
+  height: 100vh;
+  width: 50vw;
+  background-color: lightblue;
+  float: right;
 }
 
 .login-details {
-    margin-left: 25%;
-    /* background-color: saddlebrown; */
-    margin-bottom: 15vh;
+  margin-left: 25%;
+  margin-bottom: 15vh;
 }
 
 .heading {
-    height: 10vh;
-    width: 110vh;
-    font-size: 8vh;
-    /* margin-left: 5%; */
-    color: seashell;
-    background-color: black;
-    /* background-colo0r: red; */
+  height: 10vh;
+  width: 110vh;
+  font-size: 8vh;
+  margin-left: 5%;
+  color: cadetblue;
 }
 
 .form-control {
-    width: 25vw;
-    /* background-color: royalblue; */
+  width: 25vw;
+}
+
+.fa {
+  float: right;
+  margin-right: 5px;
+  color: gray;
+  margin-top: -30px;
+  position: relative;
+  font-size: 1.5rem;
 }
